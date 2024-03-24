@@ -1,0 +1,129 @@
+.centered-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+}
+
+.centered-section {
+  text-align: left;
+  padding: 20px;
+  width: 700px;
+  font-size: 1rem;
+  position: relative;
+  border: 5px solid var(--btn2-color);
+  margin: auto;
+  background-color: #fff8f8;
+  border-radius: 15px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: 325px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .centered-section {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    flex-basis: 100%;
+  }
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: 2px solid var(--btn2-color);
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: var(--btn3-color);
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--btn1-color);
+}
+
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.button {
+  width: 200px;
+  background-color: var(--btn3-color);
+  color: #000;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  padding: 10px 10px 10px 10px;
+}
+
+#fileUploader {
+  border: 3px solid var(--btn3-color);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.preview-container {
+  width: 300px;
+  height: 300px;
+  background-color: var(--btn3-color);
+  margin: auto;
+  display: none; /* Initially hide the preview */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#preview {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block; /* Show the image when available */
+  margin: auto;
+}
+
+.preview-main-container {
+  width: 90%;
+  margin: auto;
+}

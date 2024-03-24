@@ -1,0 +1,19 @@
+.centered-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+}
+
+.centered-section {
+    text-align: center; 
+    padding: 20px;
+    width: 500px;
+    font-size: x-large;
+}
+
+@media (max-width: 768px) {
+    .centered-layout {
+        flex-direction: column; 
+    }
+}

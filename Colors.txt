@@ -1,0 +1,4 @@
+Main color: #e1dcaa
+Header: #b4be96
+Button1: #0f3719
+Button2: #7daa69
