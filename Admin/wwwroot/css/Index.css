@@ -1,0 +1,71 @@
+.centered-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh; 
+}
+
+@media (max-width: 768px) {
+    .centered-layout {
+        flex-direction: column; 
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.footer h1{
+    color: #fff;    
+}
+
+.section-left{
+    width: 30%;
+    margin: auto;
+    background-color: var(--btn2-color);
+    padding: 0px 10px 10px 10px;
+    color: #000;
+    border-radius: 10px;
+}
+
+.section-right{
+    width: 30%;
+    margin: auto;
+    background-color: var(--btn1-color);
+    padding: 0px 10px 10px 10px;
+    color: #fff;    
+    border-radius: 10px;
+}
+
+.section-right table tr :first-child{
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    width: 70%;
+}
+
+.section-left table tr :first-child{
+    color: #000;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    width: 70%;
+}
+
+.section-right table tr :last-child{
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    width: 30%;
+}
+
+.section-left table tr :last-child{
+    color: #000;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    width: 30%;
+}

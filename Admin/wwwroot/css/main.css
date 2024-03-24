@@ -1,0 +1,109 @@
+:root {
+  --main-color: #e1dcaa;
+  --header-color: #b4be96;
+  --btn1-color: #0f3719;
+  --btn2-color: #7daa69;
+  --btn3-color: #b4be96;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+nav {
+  background-color: var(--header-color);
+  padding: 0px 10px 0px 10px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  height: 10vh;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: var(--btn1-color);
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.btn2 {
+  background-color: var(--btn2-color);
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.btn3 {
+  background-color: var(--btn3-color);
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid var(--btn2-color);
+  border-radius: 4px;
+  margin-left: 10px;
+  background-color: var(--main-color);
+}
+
+option {
+  background-color: var(--main-color);
+  color: #000;
+  border: 1px solid var(--btn2-color);
+}
+
+.section-top {
+  width: 100%;
+  background-color: var(--btn3-color);
+  padding: 10px 10px 10px 10px;
+  color: #000;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  background-color: white !important;
+}
+
+#myDataTable tbody tr.even {
+  background-color: #f2f2f2;
+}
+
+#myDataTable tbody tr.odd {
+  background-color: #c4c3c3;
+}
