@@ -1,0 +1,14 @@
+.centered-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .centered-layout {
+    flex-direction: column;
+  }
+}
